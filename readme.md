@@ -25,7 +25,3 @@ When reaching out to various departments to gather input for skill-building init
 ### Email Base Template
 
 The root of the repository contains an "Email Base Template" which serves as a foundational starting point for crafting any email communication. This base template provides a standardized structure that you can build upon for consistency and professionalism across all your emails.
-
-Feel free to explore these folders, select the appropriate template for your needs, and customize them according to the specific context of your communication. Remember that you can also use the "assets" folder to enhance the visual appeal of your emails with relevant images or graphics.
-
-If you have any questions or need further assistance, don't hesitate to reach out. Happy emailing!
