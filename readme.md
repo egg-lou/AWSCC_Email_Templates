@@ -18,7 +18,7 @@ In this folder, you will find an email template specifically tailored for AWSCC 
 
 Are you scheduling interviews for office positions? This folder contains an email template that streamlines the process of inviting candidates for office interviews. Feel free to customize it to match your company's branding and specific requirements.
 
-### 4. skill_builder_departments email template
+### 4. skill builder departments email template
 
 When reaching out to various departments to gather input for skill-building initiatives, this email template in the corresponding folder will prove handy. It's structured to help you collect relevant information effectively.
 
