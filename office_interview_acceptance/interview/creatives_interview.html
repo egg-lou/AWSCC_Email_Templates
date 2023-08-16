@@ -9,16 +9,14 @@
     <style>
         body {
             font-family: 'Rubik', sans-serif;
-            font-size: 16px;
             line-height: 1.5;
-            font-weight: 400;
-            margin: 0 auto;
             background-color: #F4F1FA;
             color: #232323;
         }
 
         table {
             width: 100%;
+            margin: 0 auto;
         }
 
         .wrapper {
@@ -31,51 +29,33 @@
             max-width: 100%;
         }
 
-        .expand-bg {
-            background-color: #330066;
-        }
         
         .container{
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-
+            padding: 2rem 1.5rem;
         }
 
         .main {
-            padding-left: 2rem;
-            padding-right: 2rem;
-            padding-top: 3rem;
-            padding-bottom: 1rem;
+            padding: 3rem 2rem 1rem 2rem;
             text-align: justify;
             background-color: #FFFFFF;
             border-radius: 0.5rem;
         }
 
-        .deets-cont{
-            margin-left: 2rem;
+        .yellow{
+            color: #F2A12B;
         }
 
         hr.solid-1, hr.solid-2{
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
-            margin-top: 2.5rem;
-            margin-bottom: 1.5rem;
+            margin: 2.5rem 1.5rem 1.5rem 1.5rem;
         }
-
-        .name {
-            padding-bottom: 1.5rem;
-        }
-
         .grey{
             color: #666666;
         }
 
         .signature {
-            opacity: 0.7;
-            padding-bottom: 0.8rem;
-            padding-top: 3.5rem;
+            color: #666666;
+            padding-bottom: 1rem;
+            padding-top: 2.8rem;
         }
 
         .footer-bg {
@@ -84,21 +64,10 @@
             background-size: cover;
         }
 
-        .social {
-            padding: 1rem 2rem;
-            display: inline-block;
-        }
-
-        .tagline {
-            font-weight: 600;
-        }
-
-        .fb,
-        .ig,
-        .linkedin {
+        .social img{
             width: 3rem;
         }
-
+        
         .footer-cont{
             display: inline-block;
             padding-top: 6rem;
@@ -107,14 +76,13 @@
 </head>
 
 <body>
-    <table class="wrapper" align="center" cellpadding="0" cellspacing="0" border="0">
+    <table class="wrapper">
         <tr>
-            <td class="expand-bg">
-
+            <td style="background-color: #330066;">
                 <!-- Logo Header -->
-                <table class="header" align="center" cellpadding="0" cellspacing="0" border="0">
+                <table>
                     <tr>
-                        <td align="center">
+                        <td>
                             <img src="https://i.postimg.cc/0jX4MfVD/Header.png" alt="AWS Cloud Club Header"
                                 class="header-logo">
                         </td>
@@ -123,14 +91,14 @@
 
                 <!-- Main Content -->
                 <div class="container">
-                    <table class="main" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <table class="main">
                         <tr>
                             <td>
-                                <p class="name">Hi <b>{{ NAME }}</b>,</p>
+                                <p style = "padding-bottom: 1.5rem;">Hi <b>{{ NAME }}</b>,</p>
                                 <p>
                                     Are you ready to unleash your creative magic? We hope you're feeling pumped because
-                                    we've got some 𝗔𝗪𝗦𝗼𝗺𝗲 news for you! Congratulations on moving forward to the next
-                                    stage of the application process for the 𝗖𝗿𝗲𝗮𝘁𝗶𝘃𝗲 𝗢𝗳𝗳𝗶𝗰𝗲 at 𝐀𝐖𝐒 𝐂𝐥𝐨𝐮𝐝
+                                    we've got some <span class="yellow">𝗔𝗪𝗦𝗼𝗺𝗲</span> news for you! Congratulations on moving forward to the next
+                                    stage of the application process for the <span class="yellow">𝗖𝗿𝗲𝗮𝘁𝗶𝘃𝗲 𝗢𝗳𝗳𝗶𝗰𝗲</span> at 𝐀𝐖𝐒 𝐂𝐥𝐨𝐮𝐝
                                     𝐂𝐥𝐮𝐛 𝐏𝐔𝐏 - 𝐌𝐚𝐧𝐢𝐥𝐚!! For the next step, we are thrilled to invite you
                                     to a live interview where we can dive deeper into your creative brilliance.
                                 </p>
@@ -140,9 +108,8 @@
 
                     <tr>
                         <td>
-                            <div class="interview-details">
                                 <p class="grey">Interview Details:
-                                    <div class="deets-cont">
+                                    <div style="margin-left: 2rem;">
                                         <p><span class="grey">Date: &nbsp;</span>{{ DATE }}</p>
                                         <p><span class="grey">Time: &nbsp;</span>{{ TIME }}</p>
                                         <p><span class="grey">Meet Link: &nbsp;</span>
@@ -150,7 +117,6 @@
                                         </p>
                                     </div>
                                 </p>
-                            </div>
                         </td>
                     </tr>
                     
@@ -204,22 +170,19 @@
                 
                 
                 <!-- Footer -->
-                <table class="footer" align="center" cellpadding="0" cellspacing="0" border="0" >
+                <table>
                     <tr>
                         <td class="footer-bg" >
-                            <div class="social">
-                                <div class="social-logos">
+                            <div class="social" style="padding: 1rem 2rem;">
+                                <div>
                                     <a href="https://www.facebook.com/AWSCloudClubPUPManila"><img
-                                        src="https://i.postimg.cc/CKb9PbKp/FaceBook.png" alt="Facebook Logo"
-                                        class="fb"></a>
+                                        src="https://i.postimg.cc/CKb9PbKp/FaceBook.png" alt="Facebook Logo"></a>
 
                                     <a href="https://www.instagram.com/awscc_pupmnl/"><img
-                                        src="https://i.postimg.cc/C1NXYYDv/Instagram.png" alt="Instagram Logo"
-                                        class="ig"></a>
+                                        src="https://i.postimg.cc/C1NXYYDv/Instagram.png" alt="Instagram Logo"</a>
                                         
                                         <a href="https://www.linkedin.com/company/aws-cloud-club-%E2%80%93-pup-manila/"><img
-                                            src="https://i.postimg.cc/c1T2d8Vp/LinkedIn.png" alt="LinkedIn Logo"
-                                            class="linkedin"></a>
+                                            src="https://i.postimg.cc/c1T2d8Vp/LinkedIn.png" alt="LinkedIn Logo"</a>
                                 </div>
                                 <span class="footer-cont"> &nbsp; </span>
                             </div>
