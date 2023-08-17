@@ -1,0 +1,5 @@
+HEADER = https://i.postimg.cc/0jX4MfVD/Header.png
+LOGO1 = https://i.postimg.cc/kXN2MVvk/FaceBook.png
+LOGO2 = https://i.postimg.cc/FFLfqCdF/Instagram.png
+LOGO 3 = https://i.postimg.cc/151gZ0wG/LinkedIn.png
+FOOTER = https://i.postimg.cc/sX1Pgmt2/Footer1.png
