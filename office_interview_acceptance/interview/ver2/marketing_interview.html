@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWSCC Scheduled Interview - Marketing Office</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            line-height: 1.5;
+            background-color: #F4F1FA;
+            color: #232323;
+        }
+
+        table {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .wrapper {
+            max-width: 60rem;
+            padding-bottom: 0.3rem;
+        }
+
+        .header-logo {
+            display: block;
+            max-width: 100%;
+        }
+
+        .container{
+            padding: 2rem 1.5rem;
+        }
+
+        .main {
+            padding: 3rem 2rem 1rem 2rem;
+            text-align: justify;
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+        }
+
+        .yellow{
+            color: #F2A12B;
+        }
+
+        hr.solid-1, hr.solid-2{
+            margin: 2.5rem 0 1.5rem 0;
+        }
+        .grey{
+            color: #666666;
+        }
+        .interview-deets p{
+            margin-left: 2rem;
+            margin-bottom: -0.3rem;
+        }
+        .signature {
+            color: #666666;
+            padding-bottom: 1rem;
+            padding-top: 1.5rem;
+        }
+        .footer-logo{
+            display: block;
+            max-width: 100%;
+        }
+        .social{
+            padding-top: 2rem;
+        }
+        .social img{
+            width: 3rem;
+            margin-top: -1rem;
+            margin-left: -0.5rem;
+        }
+        .social a{
+            text-decoration: none;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <table class="wrapper">
+        <tr>
+            <td style="background-color: #330066;">
+                <!-- Logo Header -->
+                <table>
+                    <tr>
+                        <td>
+                            <a href="#"><img src="https://i.postimg.cc/0jX4MfVD/Header.png" class="header-logo"></a>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Main Content -->
+                <div class="container">
+                    <table class="main">
+                        <tr>
+                            <td>
+                                <p style = "padding-bottom: 1.5rem;">Hi <b>{{ NAME }}</b>,</p>
+                                <p>
+                                    Are you ready to make your mark in the world of marketing? We're buzzing with excitement because we have some electrifying news for you! Congratulations on advancing to the next stage of the application process for the <span class="yellow">𝗠𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝗢𝗳𝗳𝗶𝗰𝗲</span> at 𝐀𝐖𝐒 𝐂𝐥𝐨𝐮𝐝 𝐂𝐥𝐮𝐛 - 𝐏𝐔𝐏 𝐌𝐚𝐧𝐢𝐥𝐚! Brace yourself for what's next – an asynchronous interview where we can dive into the sea of your marketing creativity.
+                                </p>
+                                <hr class="solid-1"></hr>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>
+                                    Instead of a live interview, we're opting for something equally exciting—an asynchronous interview through a Google Form. This flexible format allows you to showcase your creativity and insights at your own pace. 
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p class="grey">Interview Details:
+                                    <div class="interview-deets">
+                                        <p><span class="grey">Deadline for Form Submission: &nbsp;</span>{{ DATE }}</p>
+                                        <p><span class="grey">Google Form Link: &nbsp;</span>
+                                            <a href="{{ MEET_LINK }}">Link</a>
+                                        </p>
+                                    </div>
+                                </p>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <p>
+                                    Share your imaginative campaigns, innovative ideas, and showcase your understanding of what makes marketing truly magical. This isn't just about skills; we're seeking individuals who infuse their projects with that spark of energy that makes an impact. Flex those creative muscles and let your marketing prowess shine brightly. Demonstrate exactly why you're a perfect fit for our dynamic Marketing Office.
+                                </p>
+                                <hr class="solid-2"></hr>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <p>
+                                    If you have any questions, a burst of inspiration, or simply want to share your excitement, don't hesitate to reach out through this email. We're here to support you every step of the way.
+                                </p>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <div class="signature">
+                                    <strong>
+                                        — Roan P. Manansala
+                                    </strong> <br>
+                                    <i>Chief Relations and Communications Officer <br></i>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="social">
+                                    <p class="grey">Follow us on our Social Media Pages: </p>
+                                    <a href="https://www.facebook.com/AWSCloudClubPUPManila"><img
+                                        src="https://i.postimg.cc/CKb9PbKp/FaceBook.png" alt="Facebook Logo"></a>
+                            
+                                    <a href="https://www.instagram.com/awscc_pupmnl/"><img
+                                        src="https://i.postimg.cc/C1NXYYDv/Instagram.png" alt="Instagram Logo"></a>
+                                        
+                                    <a href="https://www.linkedin.com/company/aws-cloud-club-%E2%80%93-pup-manila/"><img
+                                        src="https://i.postimg.cc/c1T2d8Vp/LinkedIn.png" alt="LinkedIn Logo"></a>
+                                </div>
+                            </td>
+                        </tr>
+                </table>
+            </div>
+                
+                <!-- Footer -->
+                <table>
+                    <tr>
+                        <td class="footer">
+                            <a href="#"><img src="https://i.postimg.cc/sX1Pgmt2/Footer1.png" class="footer-logo"></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
