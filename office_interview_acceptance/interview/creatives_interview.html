@@ -11,7 +11,7 @@
             font-family: 'Rubik', sans-serif;
             line-height: 1.5;
             background-color: #F4F1FA;
-            color: #232323;
+            color: #232F3E;
         }
 
         table {
@@ -50,6 +50,9 @@
         .grey{
             color: #666666;
         }
+        .interview{
+            margin: -0.7rem auto auto 1rem;
+        }
         .interview-deets p{
             margin-left: 2rem;
             margin-bottom: -0.3rem;
@@ -63,8 +66,8 @@
             display: block;
             max-width: 100%;
         }
-        .social{
-            padding-top: 2rem;
+        .pad-s{
+            padding-top: 1.5rem;
         }
         .social img{
             width: 2rem;
@@ -109,15 +112,23 @@
 
                     <tr>
                         <td>
-                            <p class="grey">Interview Details:
+                            <div class="interview">
+                                <p class="grey"><strong>Interview Details:</strong></p>
                                 <div class="interview-deets">
                                     <p><span class="grey">Date: &nbsp;</span>{{ DATE }}</p>
                                     <p><span class="grey">Time: &nbsp;</span>{{ TIME }}</p>
-                                    <p><span class="grey">Meet Link: &nbsp;</span>
-                                        <a href="{{ LINK }}">Link</a>
-                                    </p>
                                 </div>
-                            </p>
+                                <p class="pad-s"><strong>Join our official Discord Server!</strong></p>
+                                <p>
+                                    <span class="grey">Discord Link: &nbsp;</span>
+                                    <a href="{{ LINK }}">Link</a>
+                                </p>
+                                <p><span>Kindly change your nickname in this format: FirstName LastName (ex. Juan dela Cruz)<br/>
+                                <span class="grey" style="font-size: 15px"><em>(In case the link expires, contact us on our Facebook page.)</em></span></p>
+                            </div>
+                                
+                        <hr class="solid-2"></hr>
+
                         </td>
                     </tr>
                     
@@ -130,7 +141,7 @@
                                 for talent; we're looking for someone who brings a contagious energy that electrifies
                                 every project.
                             </p>
-                            <hr class="solid-2"></hr>
+                    
                         </td>
                     </tr>
                     
@@ -169,7 +180,7 @@
 
                     <tr>
                         <td>
-                            <div class="social">
+                            <div class="social pad-s">
                                 <p class="grey"><i>Follow us on our social media pages:</i></p>
 
                                 <a href="https://www.facebook.com/AWSCloudClubPUPManila"><img
