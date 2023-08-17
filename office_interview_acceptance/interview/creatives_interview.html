@@ -57,30 +57,25 @@
         .signature {
             color: #666666;
             padding-bottom: 1rem;
-            padding-top: 2.8rem;
+            padding-top: 1.5rem;
         }
-
-        .footer-bg {
-            background-image: url('https://i.postimg.cc/L8PZKkr3/yon.png');
-            background-position: center;
-            background-size: cover;
+        .footer-logo{
+            display: block;
+            max-width: 100%;
         }
-
         .social{
-            padding: 1rem 2rem;
+            padding-top: 2rem;
         }
-
         .social img{
             width: 3rem;
+            margin-top: -1rem;
+            margin-left: -0.5rem;
         }
         .social a{
             text-decoration: none;
         }
-        
-        .footer-cont{
-            display: inline-block;
-            padding-top: 6rem;
-        }
+
+
     </style>
 </head>
 
@@ -92,8 +87,8 @@
                 <table>
                     <tr>
                         <td>
-                            <img src="https://i.postimg.cc/0jX4MfVD/Header.png" alt="AWS Cloud Club Header"
-                                class="header-logo">
+                            <!-- <a href="#"><img src="{{HEADER}}" class="header-logo"></a> -->
+                            <a href="#"><img src="https://i.postimg.cc/0jX4MfVD/Header.png" class="header-logo"></a>
                         </td>
                     </tr>
                 </table>
@@ -117,15 +112,15 @@
 
                     <tr>
                         <td>
-                                <p class="grey">Interview Details:
-                                    <div class="interview-deets">
-                                        <p><span class="grey">Date: &nbsp;</span>{{ DATE }}</p>
-                                        <p><span class="grey">Time: &nbsp;</span>{{ TIME }}</p>
-                                        <p><span class="grey">Meet Link: &nbsp;</span>
-                                            <a href="{{ MEET_LINK }}">Link</a>
-                                        </p>
-                                    </div>
-                                </p>
+                            <p class="grey">Interview Details:
+                                <div class="interview-deets">
+                                    <p><span class="grey">Date: &nbsp;</span>{{ DATE }}</p>
+                                    <p><span class="grey">Time: &nbsp;</span>{{ TIME }}</p>
+                                    <p><span class="grey">Meet Link: &nbsp;</span>
+                                        <a href="{{ MEET_LINK }}">Link</a>
+                                    </p>
+                                </div>
+                            </p>
                         </td>
                     </tr>
                     
@@ -174,27 +169,41 @@
                             </div>
                         </td>
                     </tr>
+
+                    <tr>
+                        <td>
+                            <div class="social">
+                                <p class="grey"><i>Follow us on our social media pages:</i></p>
+
+                                <!-- <a href="https://www.facebook.com/AWSCloudClubPUPManila"><img
+                                        src="{{LOGO1}}" alt="Facebook Logo"></a>
+                            
+                                    <a href="https://www.instagram.com/awscc_pupmnl/"><img
+                                        src="{{LOGO2}}" alt="Instagram Logo"></a>
+                                        
+                                    <a href="https://www.linkedin.com/company/aws-cloud-club-%E2%80%93-pup-manila/"><img
+                                        src="{{LOGO3}}" alt="LinkedIn Logo"></a> -->
+
+                                <a href="https://www.facebook.com/AWSCloudClubPUPManila"><img
+                                    src="https://i.postimg.cc/CKb9PbKp/FaceBook.png" alt="Facebook Logo"></a>
+                        
+                                <a href="https://www.instagram.com/awscc_pupmnl/"><img
+                                    src="https://i.postimg.cc/C1NXYYDv/Instagram.png" alt="Instagram Logo"></a>
+                                    
+                                <a href="https://www.linkedin.com/company/aws-cloud-club-%E2%80%93-pup-manila/"><img
+                                    src="https://i.postimg.cc/c1T2d8Vp/LinkedIn.png" alt="LinkedIn Logo"></a>
+                            </div>
+                        </td>
+                    </tr>
                 </table>
             </div>
-                
                 
                 <!-- Footer -->
                 <table>
                     <tr>
-                        <td class="footer-bg" >
-                            <div class="social">
-                                <div>
-                                    <a href="https://www.facebook.com/AWSCloudClubPUPManila"><img
-                                        src="https://i.postimg.cc/CKb9PbKp/FaceBook.png" alt="Facebook Logo"></a>
-
-                                    <a href="https://www.instagram.com/awscc_pupmnl/"><img
-                                        src="https://i.postimg.cc/C1NXYYDv/Instagram.png" alt="Instagram Logo"></a>
-                                        
-                                    <a href="https://www.linkedin.com/company/aws-cloud-club-%E2%80%93-pup-manila/"><img
-                                        src="https://i.postimg.cc/c1T2d8Vp/LinkedIn.png" alt="LinkedIn Logo"></a>
-                                </div>
-                                <span class="footer-cont"> &nbsp; </span>
-                            </div>
+                        <td class="footer">
+                            <!-- <a href="#"><img src="{{FOOTER}}" alt=""></a> -->
+                            <a href="#"><img src="https://i.postimg.cc/sX1Pgmt2/Footer1.png" class="footer-logo"></a>
                         </td>
                     </tr>
                 </table>
